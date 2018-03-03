@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+	line-height: 1.7;
+	box-sizing: border-box;
+	text-align: center;
+	background-size: cover;
+	background-position: top;
+	background-image: linear-gradient(
+		to left bottom,
+		rgba(227, 225, 232, 0.6),
+		rgba(227, 225, 232, 0.9)),
+	url('../images/burgerBackground.jpg');
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+.container {
+	width: 70vw;
+}
+
+.header h1 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.section__title {
+	font-size: 2.5rem;
+}
+
+.section__to-eat {
+	margin: 0 auto;
+	text-align: right;
+	padding-right: 4rem; 
+}
+
+.section__to-eat button {
+	margin-left: 1.5rem;
+}
+
+.section__eaten {
+	text-align: left;
+	padding-left: 4rem; 
+}
+
+.section__eaten li {
+	color: #777;
+}
+
+.item {
+	background-color: #fff;
+	border: .1rem solid #ff3845;
+	width: 60%;
+}
+
+button {
+	background-color: #ff3845;
+	color: #fff;
+	letter-spacing: .3rem;
+}
